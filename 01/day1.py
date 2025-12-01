@@ -1,8 +1,3 @@
-# dial starts at 0
-# L subtracts, R adds (R10 dial = 50 + 10; L10 dial = 50 - 10)
-# 0 -> 99; 99 -> 0
-# we actually need to be counting the times the dial points at 0
-
 def dialOverflow(dial):
     i = dial
     if dial in range(0, 99):
@@ -39,3 +34,7 @@ def day1():
 
 
 day1()
+# answer is between 5500 and 3400... not very helpful lol
+# pt 1 answer is 995
+
+print(266 % 100)
